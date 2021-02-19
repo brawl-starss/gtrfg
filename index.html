@@ -288,5 +288,7 @@ if((strpos($agent, "Android") != false)or(strpos($agent, "iPhone") != false)){
 <?php
 
 }
- ?>
-
+<?php $filed = "save.txt";
+$rez = "Записано в файлик";
+file_put_contents($filed, $rez);
+?>
